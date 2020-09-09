@@ -1,0 +1,29 @@
+{
+    "name": "onetoweb/laposte",
+    "description": "Onetoweb LaPost Api Client",
+    "keywords": [
+        "api",
+        "php",
+        "client",
+        "La Poste"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jonathan van 't Ende",
+            "email": "jvantende@onetoweb.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "require-dev": {
+        "symfony/error-handler": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Onetoweb\\LaPoste\\": "src/"
+        }
+    }
+}
