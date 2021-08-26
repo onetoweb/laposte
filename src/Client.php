@@ -50,7 +50,7 @@ class Client
      * 
      * @return mixed
      */
-    public function request(string $method = self::METHOD_GET, string $endpoint, array $query = [])
+    public function request(string $method, string $endpoint, array $query = [])
     {
         try {
             
